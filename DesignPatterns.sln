@@ -35,9 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Adapter.WithCach
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Bridge", "Structural.Bridge\Structural.Bridge.csproj", "{107A44CC-C351-440B-A290-24D7A3B90470}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Composite.GeometricShapes", "Structural.Composite.GeometricShapes\Structural.Composite.GeometricShapes.csproj", "{E17938AA-F7DC-4CD0-9A55-0AA008ED1029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Composite.GeometricShapes", "Structural.Composite.GeometricShapes\Structural.Composite.GeometricShapes.csproj", "{E17938AA-F7DC-4CD0-9A55-0AA008ED1029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Composite.NeuralNetworks", "Structural.Composite.NeuralNetworks\Structural.Composite.NeuralNetworks.csproj", "{58E28B0F-93E6-4FC2-AABC-4333E406C5D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Composite.NeuralNetworks", "Structural.Composite.NeuralNetworks\Structural.Composite.NeuralNetworks.csproj", "{58E28B0F-93E6-4FC2-AABC-4333E406C5D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Decorator", "Structural.Decorator\Structural.Decorator.csproj", "{860E82C4-E36C-4CFD-87CA-D2D48EF7317E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{6DFAA7C2-72A5-4189-B609-D8CFCEC5EEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ChainOfResponsibility.MethodChain", "Behavioral.ChainOfResponsibility.MethodChain\Behavioral.ChainOfResponsibility.MethodChain.csproj", "{36064AF1-36CE-4C82-A889-BF046EEBE577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ChainOfResponsibility.BrokerChain", "Behavioral.ChainOfResponsibility.BrokerChain\Behavioral.ChainOfResponsibility.BrokerChain.csproj", "{3CF66F48-A7BC-4808-962D-43463BBF60B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +113,18 @@ Global
 		{58E28B0F-93E6-4FC2-AABC-4333E406C5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E28B0F-93E6-4FC2-AABC-4333E406C5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E28B0F-93E6-4FC2-AABC-4333E406C5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860E82C4-E36C-4CFD-87CA-D2D48EF7317E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860E82C4-E36C-4CFD-87CA-D2D48EF7317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860E82C4-E36C-4CFD-87CA-D2D48EF7317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860E82C4-E36C-4CFD-87CA-D2D48EF7317E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36064AF1-36CE-4C82-A889-BF046EEBE577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36064AF1-36CE-4C82-A889-BF046EEBE577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36064AF1-36CE-4C82-A889-BF046EEBE577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36064AF1-36CE-4C82-A889-BF046EEBE577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF66F48-A7BC-4808-962D-43463BBF60B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF66F48-A7BC-4808-962D-43463BBF60B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF66F48-A7BC-4808-962D-43463BBF60B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF66F48-A7BC-4808-962D-43463BBF60B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +145,9 @@ Global
 		{107A44CC-C351-440B-A290-24D7A3B90470} = {53FE7119-21F0-492B-A1F4-79C86F2E2C54}
 		{E17938AA-F7DC-4CD0-9A55-0AA008ED1029} = {53FE7119-21F0-492B-A1F4-79C86F2E2C54}
 		{58E28B0F-93E6-4FC2-AABC-4333E406C5D6} = {53FE7119-21F0-492B-A1F4-79C86F2E2C54}
+		{860E82C4-E36C-4CFD-87CA-D2D48EF7317E} = {53FE7119-21F0-492B-A1F4-79C86F2E2C54}
+		{36064AF1-36CE-4C82-A889-BF046EEBE577} = {6DFAA7C2-72A5-4189-B609-D8CFCEC5EEA7}
+		{3CF66F48-A7BC-4808-962D-43463BBF60B6} = {6DFAA7C2-72A5-4189-B609-D8CFCEC5EEA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D849C99-8C60-422F-B542-6ACC26E95540}
