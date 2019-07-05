@@ -43,9 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Decorator", "Str
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{6DFAA7C2-72A5-4189-B609-D8CFCEC5EEA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ChainOfResponsibility.MethodChain", "Behavioral.ChainOfResponsibility.MethodChain\Behavioral.ChainOfResponsibility.MethodChain.csproj", "{36064AF1-36CE-4C82-A889-BF046EEBE577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.ChainOfResponsibility.MethodChain", "Behavioral.ChainOfResponsibility.MethodChain\Behavioral.ChainOfResponsibility.MethodChain.csproj", "{36064AF1-36CE-4C82-A889-BF046EEBE577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ChainOfResponsibility.BrokerChain", "Behavioral.ChainOfResponsibility.BrokerChain\Behavioral.ChainOfResponsibility.BrokerChain.csproj", "{3CF66F48-A7BC-4808-962D-43463BBF60B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.ChainOfResponsibility.BrokerChain", "Behavioral.ChainOfResponsibility.BrokerChain\Behavioral.ChainOfResponsibility.BrokerChain.csproj", "{3CF66F48-A7BC-4808-962D-43463BBF60B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Command", "Behavioral.Command\Behavioral.Command.csproj", "{FE86D587-B8BE-4244-98C2-C00B84038F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Interpreter", "Behavioral.Interpreter\Behavioral.Interpreter.csproj", "{E887AF79-C1E0-42AF-8262-4EBB18627C8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +129,14 @@ Global
 		{3CF66F48-A7BC-4808-962D-43463BBF60B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CF66F48-A7BC-4808-962D-43463BBF60B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CF66F48-A7BC-4808-962D-43463BBF60B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE86D587-B8BE-4244-98C2-C00B84038F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE86D587-B8BE-4244-98C2-C00B84038F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE86D587-B8BE-4244-98C2-C00B84038F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE86D587-B8BE-4244-98C2-C00B84038F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E887AF79-C1E0-42AF-8262-4EBB18627C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E887AF79-C1E0-42AF-8262-4EBB18627C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E887AF79-C1E0-42AF-8262-4EBB18627C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E887AF79-C1E0-42AF-8262-4EBB18627C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -148,6 +160,8 @@ Global
 		{860E82C4-E36C-4CFD-87CA-D2D48EF7317E} = {53FE7119-21F0-492B-A1F4-79C86F2E2C54}
 		{36064AF1-36CE-4C82-A889-BF046EEBE577} = {6DFAA7C2-72A5-4189-B609-D8CFCEC5EEA7}
 		{3CF66F48-A7BC-4808-962D-43463BBF60B6} = {6DFAA7C2-72A5-4189-B609-D8CFCEC5EEA7}
+		{FE86D587-B8BE-4244-98C2-C00B84038F28} = {6DFAA7C2-72A5-4189-B609-D8CFCEC5EEA7}
+		{E887AF79-C1E0-42AF-8262-4EBB18627C8E} = {6DFAA7C2-72A5-4189-B609-D8CFCEC5EEA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D849C99-8C60-422F-B542-6ACC26E95540}
